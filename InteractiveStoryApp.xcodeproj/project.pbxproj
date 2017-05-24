@@ -13,6 +13,7 @@
 		82706DA51ED5D4E600912997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82706DA41ED5D4E600912997 /* Assets.xcassets */; };
 		82706DA81ED5D4E600912997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82706DA61ED5D4E600912997 /* LaunchScreen.storyboard */; };
 		82706DB01ED5E16B00912997 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82706DAF1ED5E16B00912997 /* Story.swift */; };
+		82706DB21ED5E57800912997 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82706DB11ED5E57800912997 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		82706DA71ED5D4E600912997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82706DA91ED5D4E600912997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82706DAF1ED5E16B00912997 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		82706DB11ED5E57800912997 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				82706D9D1ED5D4E600912997 /* AppDelegate.swift */,
 				82706D9F1ED5D4E600912997 /* ViewController.swift */,
+				82706DAF1ED5E16B00912997 /* Story.swift */,
+				82706DB11ED5E57800912997 /* Page.swift */,
 				82706DA11ED5D4E600912997 /* Main.storyboard */,
 				82706DA41ED5D4E600912997 /* Assets.xcassets */,
 				82706DA61ED5D4E600912997 /* LaunchScreen.storyboard */,
 				82706DA91ED5D4E600912997 /* Info.plist */,
-				82706DAF1ED5E16B00912997 /* Story.swift */,
 			);
 			path = InteractiveStoryApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				82706DA01ED5D4E600912997 /* ViewController.swift in Sources */,
 				82706D9E1ED5D4E600912997 /* AppDelegate.swift in Sources */,
+				82706DB21ED5E57800912997 /* Page.swift in Sources */,
 				82706DB01ED5E16B00912997 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
