@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,11 +32,21 @@
                                     <segue destination="DQ7-eC-Tgt" kind="show" identifier="startAdventure" id="Q7S-WZ-6ez"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VFN-0s-OfH">
+                                <rect key="frame" x="40" y="519" width="295" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qp8-OG-ibX" secondAttribute="bottom" id="7qm-GC-QPH"/>
+                            <constraint firstItem="KgM-jM-9b7" firstAttribute="top" secondItem="VFN-0s-OfH" secondAttribute="bottom" constant="40" id="8bs-Qo-fvI"/>
                             <constraint firstItem="Qp8-OG-ibX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Kvt-C9-zxc"/>
+                            <constraint firstItem="VFN-0s-OfH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="MSW-EI-sT3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VFN-0s-OfH" secondAttribute="trailing" constant="24" id="PHk-qL-gYM"/>
+                            <constraint firstItem="VFN-0s-OfH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TwA-3w-8I5"/>
                             <constraint firstItem="KgM-jM-9b7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VpZ-vU-GPE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KgM-jM-9b7" secondAttribute="bottom" constant="48" id="iSQ-8W-I0M"/>
                             <constraint firstItem="Qp8-OG-ibX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pyD-dT-dXf"/>
@@ -43,6 +54,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qZf-VC-0BX"/>
+                    <connections>
+                        <outlet property="nameTextField" destination="VFN-0s-OfH" id="FKh-3B-U2t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
