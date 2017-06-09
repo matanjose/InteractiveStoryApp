@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82639C491EEB460100EB8141 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82639C461EEB460100EB8141 /* HappyEnding.wav */; };
+		82639C4A1EEB460100EB8141 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82639C471EEB460100EB8141 /* Ominous.wav */; };
+		82639C4B1EEB460100EB8141 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 82639C481EEB460100EB8141 /* PageTurn.wav */; };
+		82639C4D1EEB46B200EB8141 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82639C4C1EEB46B200EB8141 /* Audio.swift */; };
 		82706D9E1ED5D4E600912997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82706D9D1ED5D4E600912997 /* AppDelegate.swift */; };
 		82706DA01ED5D4E600912997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82706D9F1ED5D4E600912997 /* ViewController.swift */; };
 		82706DA31ED5D4E600912997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82706DA11ED5D4E600912997 /* Main.storyboard */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82639C461EEB460100EB8141 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		82639C471EEB460100EB8141 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		82639C481EEB460100EB8141 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		82639C4C1EEB46B200EB8141 /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		82706D9A1ED5D4E600912997 /* InteractiveStoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveStoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82706D9D1ED5D4E600912997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82706D9F1ED5D4E600912997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82639C451EEB45C100EB8141 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82639C461EEB460100EB8141 /* HappyEnding.wav */,
+				82639C471EEB460100EB8141 /* Ominous.wav */,
+				82639C481EEB460100EB8141 /* PageTurn.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		82706D911ED5D4E600912997 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +78,7 @@
 		82706D9C1ED5D4E600912997 /* InteractiveStoryApp */ = {
 			isa = PBXGroup;
 			children = (
+				82639C451EEB45C100EB8141 /* Resources */,
 				82706D9D1ED5D4E600912997 /* AppDelegate.swift */,
 				82706D9F1ED5D4E600912997 /* ViewController.swift */,
 				82706DAF1ED5E16B00912997 /* Story.swift */,
@@ -69,6 +88,7 @@
 				82706DA41ED5D4E600912997 /* Assets.xcassets */,
 				82706DA61ED5D4E600912997 /* LaunchScreen.storyboard */,
 				82706DA91ED5D4E600912997 /* Info.plist */,
+				82639C4C1EEB46B200EB8141 /* Audio.swift */,
 			);
 			path = InteractiveStoryApp;
 			sourceTree = "<group>";
@@ -133,8 +153,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82639C4A1EEB460100EB8141 /* Ominous.wav in Resources */,
 				82706DA81ED5D4E600912997 /* LaunchScreen.storyboard in Resources */,
 				82706DA51ED5D4E600912997 /* Assets.xcassets in Resources */,
+				82639C491EEB460100EB8141 /* HappyEnding.wav in Resources */,
+				82639C4B1EEB460100EB8141 /* PageTurn.wav in Resources */,
 				82706DA31ED5D4E600912997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82639C4D1EEB46B200EB8141 /* Audio.swift in Sources */,
 				82706DA01ED5D4E600912997 /* ViewController.swift in Sources */,
 				82706D9E1ED5D4E600912997 /* AppDelegate.swift in Sources */,
 				82706DB21ED5E57800912997 /* Page.swift in Sources */,
