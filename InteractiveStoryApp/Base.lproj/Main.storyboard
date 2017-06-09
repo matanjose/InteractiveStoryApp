@@ -57,6 +57,7 @@
                     <navigationItem key="navigationItem" id="qZf-VC-0BX"/>
                     <connections>
                         <outlet property="nameTextField" destination="VFN-0s-OfH" id="FKh-3B-U2t"/>
+                        <outlet property="textFieldBottomConstraint" destination="8bs-Qo-fvI" id="r17-sJ-T6k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
