@@ -27,6 +27,12 @@ extension Story {
 
 class SoundEffectsPlayer {
     var sound: SystemSoundID = 0
+    
+    func playSound(for story: Story) {
+        let soundURL = story.soundEffectURL as CFURL
+        AudioServicesCreateSystemSoundID(soundURL, &sound)
+        AudioServicesPlaySystemSound(sound)
+    }
 }
 
 
